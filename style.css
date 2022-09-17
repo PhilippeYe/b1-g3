@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+
+}
+
+p{
+    color: black;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Arial';
+}
+
+.title{
+    font-size: 72px;
+    font-weight: bold;
+    font-family: 'qwitcher grypen';
+}
+
+img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .box{
+        background-color: blue;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+        height: 200px;
+        padding-top: 30px;
+    }
+
+    .box:hover {
+        background-color: beige;
+    }
+
+    .box p{
+        color: #121212;
+    }
+
+    .box:hover .special {
+        font-weight: bold;
+    }
+
+    .container {
+        background-color: white;
+        height: 70vh;
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .boite1 {
+        width: 100%;
+        height: 200px;
+        border: 2px solid pink
+    }
+
+    .boite2 {
+        width: 50%;
+        height: 300px;
+        border: 2px solid pink;
+    }
+
+
+    .boite3 {
+        width: 10%;
+        height: 300px;
+        border: 2px solid pink
+    }
+
+    #presentation{
+
+    }
+    html,body {
+        scroll-behavior: smooth;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
